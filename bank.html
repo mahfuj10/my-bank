@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>ONE Bank</title>
+</head>
+<body>
+
+<header>
+<h1 class="text-5xl text-center font-semibold mt-8">Lets's get some <span class="text-purple-600">Mooooooney!!</span></h1>
+</header>
+
+<main>
+
+<section class="flex gap-5 flex-wrap justify-center mt-16">
+
+        <article class="bg-blue-300 w-80 h-40">
+        <h2 class="text-3xl pl-10 mt-7 mb-2 ">Deposit</h2>
+        <h1 class="text-4xl pl-10">$<span id="deposit-text">00</span></h1>
+        </article>
+        
+        <article class="bg-green-300 w-80 h-40">
+        <h1 class="text-3xl pl-10 mt-7 mb-2">Withdraw</h1>
+        <h2 class="text-4xl pl-10">$<span id="withdraw-text">00</span> </h2>
+        </article>
+        
+        <article class="bg-yellow-300 w-80 h-40">
+        <h2 class="text-3xl pl-10 mt-7 mb-2">Balance</h2>
+        <h2 class="text-4xl pl-10">$<span id="total-balance">1250</span></h2>
+        </article>
+
+</section>
+
+
+
+<section class="flex justify-center flex-wrap gap-10 mt-16">
+
+<article class="bg-pink-100 xl:w-1/4 py-8 px-7">  
+
+    <h2 class="text-2xl">Please Deposit</h2>
+    <input type="email" placeholder="  $ amount you want to deposit" id="deposit-input" class="border-2 w-64 p-0\.5 border-purple-400 rounded-md mt-3"><br>
+    <button class="px-4 py-2 bg-green-500 text-white font-medium mt-3" id="deposit-button"> Deposit</button>
+
+</article>
+
+<article class="bg-purple-100 xl:w-1/4 py-8 px-7">  
+
+    <h2 class="text-2xl">Please Withdraw</h2>
+    <input type="email" placeholder="  $ amount you want to withdraw" id="withdraw-input" class="border-2 w-64 p-0\.5 border-purple-400 rounded-md mt-3"><br>
+    <button class="px-4 py-2 bg-purple-500 text-white font-medium mt-3" id="withdraw-button"> Withdraw</button>
+    
+</article>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="bank.js"></script>
+</body>
+</html>
